@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Entertainment.CircusActivity"
+    android:background="@color/tsb">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="415dp"
+        android:layout_height="291dp"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-3dp">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="15dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:srcCompat="@drawable/th" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="20dp"
+            android:onClick="onClickHelp"
+            app:srcCompat="@drawable/info" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:onClick="onCLickBack"
+            app:srcCompat="@drawable/ic_baseline_navigate_before_24" />
+
+    </FrameLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/frameLayout"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="0.455">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Novosibirsk State Circus, built in 1971; one of the most famous circuses in Russia. The history of its origin goes back to the distant 1899, when the first booths and circus tents appeared on the territory of the Nikolaev settlement. In those years, the repertoire of the circus was quite funny and not like modern performances."
+                android:textColor="@color/sb" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="At the beginning of the century, in the Novosibirsk circus, you could see dwarfs, clowns, buffoons and a lot of ridiculous characters. Today, more than a hundred different performances take place here. The auditorium is designed for 2,300 spectators. Externally, it is a fairly modern building, similar to a concert venue. The auditorium is divided into several sectors; there is an orchestra pit with a lot of equipment."
+                android:textColor="@color/sb" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="From an architectural point of view, the building of the Novosibirsk circus is a true decoration of the city. In the evenings, when it is illuminated by a lot of light bulbs, it seems that this is a space station. No less interesting are the show programs performed by circus artists. For example, in the Amazon show, you can see the performance of exotic animals: black panthers, leopards, etc."
+                android:textColor="@color/sb" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="During the show 'On the verge of extreme', acrobats unsurpassed in their talent perform. Geographically, the circus is located next to the Ascension Cathedral. You can get to it by metro - Krasny Prospekt station."
+                android:textColor="@color/sb" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="309dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="476dp"
+        android:backgroundTint="@color/sb"
+        android:onClick="onClickWeb"
+        android:text="website"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="309dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/sb"
+        android:onClick="onClickPhone"
+        android:shadowColor="@color/sb"
+        android:text="phone number"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="309dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="@color/sb"
+        android:onClick="onClickRoute"
+        android:shadowColor="@color/sb"
+        android:text="route"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <ImageView
+        android:id="@+id/Snowflake"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

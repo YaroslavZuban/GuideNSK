@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.guidensk">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GuideNSK">
+        <activity
+            android:name=".EntertainmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Entertainment.CircusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Entertainment.AcademicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Entertainment.AquaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Entertainment.TheaterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shopping.GalleryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shopping.RoyalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shopping.MegaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Shopping.AuraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShoppingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Food.PuppenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Food.SparksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Food.AziatishActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Food.RestaurantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Hotel.Domina"
+            android:exported="false" />
+        <activity
+            android:name=".Hotel.Marriott"
+            android:exported="false" />
+        <activity
+            android:name=".Hotel.MarinsPark"
+            android:exported="false" />
+        <activity
+            android:name=".WhereToSayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Help"
+            android:exported="false" />
+
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
+
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

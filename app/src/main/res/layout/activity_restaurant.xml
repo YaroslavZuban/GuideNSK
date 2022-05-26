@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food.AziatishActivity"
+    android:background="@color/tsb">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="415dp"
+        android:layout_height="291dp"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-3dp">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="15dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:srcCompat="@drawable/sibres" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="20dp"
+            android:onClick="onClickHelp"
+            app:srcCompat="@drawable/info" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:onClick="onCLickBack"
+            app:srcCompat="@drawable/ic_baseline_navigate_before_24" />
+
+    </FrameLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/frameLayout"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="0.455">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The restaurant of Siberian cuisine on the ground floor of the hotel 'Siberia' is an idea that should have been realized a long time ago."
+                android:textColor="@color/sb" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The huge area of an ordinary hotel restaurant has now turned almost into a museum, although it is not very clear what exactly: there is a room with a stuffed deer, and a five-pointed star made of birch logs, and old Soviet skis (sorry, not at the stove), and a special vodka room sparkling with crystal glasses and a variety of vodka labels. It looks colorful, but in general it looks like the memories of a foreigner who once visited somewhere in the Russian North in 1980."
+                android:textColor="@color/sb" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The cuisine is much more impressive: Ivanov's experiments with Russianness in European dishes have finally shaken off world conventions. There is an ear made of a rooster and four types of fish, and a sugudai made of muksun, and a jelly made of pork legs and oxtails with beet horseradish, and a sea buckthorn souffle."
+                android:textColor="@color/sb" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Venison, northern fish, all kinds of game and, for example, a set of champagne and caviar for 9500 rubles are somewhat at odds with the surrounding entourage — well, this is the favorite reception of the restaurateur."
+                android:textColor="@color/sb" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For those who came on skis and without a platinum credit card, there are buckwheat with onions, homemade sausage and kvass, an excellent set of warming tinctures (for example, on bay leaf or red pepper) and a lot of pies, pies, pickles and marinades."
+                android:textColor="@color/sb" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The average check is 1700-3000 rubles"
+                android:textColor="@color/sb" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="309dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="476dp"
+        android:backgroundTint="@color/sb"
+        android:onClick="onClickWeb"
+        android:text="restaurant website"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="309dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/sb"
+        android:onClick="onClickPhone"
+        android:shadowColor="@color/sb"
+        android:text="restaurant phone number"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="309dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="@color/sb"
+        android:onClick="onClickRoute"
+        android:shadowColor="@color/sb"
+        android:text="route"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <ImageView
+        android:id="@+id/Snowflake"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

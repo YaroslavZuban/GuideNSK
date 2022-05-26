@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3605" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/drawable/house_menu.xml" value="0.323" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/drawable/ic_baseline_navigate_before_24.xml" value="0.323" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3605" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/drawable/info.xml" value="0.221" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_academic.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_aqua.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_aura.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_aziatish.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_circus.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_domina.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_entertainment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_food.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_gallery.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_help.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_home.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_marins_park.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_marriott.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_mega.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_puppen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_restaurant.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_royal.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_shopping.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_sparks.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_theater.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/activity_where_to_say.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/layout/splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.221" />
+        <entry key="..\:/Users/babka/AndroidStudioProjects/GuideNSK2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.221" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
